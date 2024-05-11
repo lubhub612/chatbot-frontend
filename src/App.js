@@ -106,7 +106,7 @@ function App() {
     */
   useEffect(() => {
     // connect with server
-    const newSocket = io("https://chatbot-server-6di6.onrender.com");
+    const newSocket = io('https://chatbot-server-6di6.onrender.com');
     setSocket(newSocket);
 
     // if connection error
